@@ -1,0 +1,41 @@
+.map{
+    position: relative;
+    left: 35%;
+}
+
+.slot{
+    margin-top: 200px;
+    width: 50rem;
+    height: 50%;
+    text-align: center;
+}
+
+.pages{
+    display: flex;
+    margin-top: 40px;
+}
+
+.paging {
+    width: 8.5rem;
+    height: 2.5rem;
+    border: 1px solid #27cc51;
+    border-radius: 1.3rem;
+    color: #fff;
+    margin-left: 15%;
+}
+
+button.active{
+    font-weight: 900;
+    border-color: #101010;
+    background: #27cc51;
+    color: #fff;
+}
+
+/*The occupied class can be an avenue explored in solving the issue of
+displaying the car image in the respective slot.
+
+    .occupied{
+    background-image: url(../../public/images/asset1.png);
+    background-size: contain;
+    background-position: center;
+} */

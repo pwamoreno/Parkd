@@ -1,0 +1,49 @@
+.dash{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.park-info{
+    display: flex;
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    margin-top: 10rem;
+}
+
+.available, .filled, .total{
+    color: #fff;
+    background: #323232;
+    border-radius: 1rem;
+    width: 18rem;
+    /* height: 9.6rem; */
+
+}
+
+.filled, .total{
+    margin-left: 2rem;
+}
+
+.business-info{
+    display: flex;
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    margin-top: 20rem;
+}
+
+.income, .hours{
+    color: #fff;
+    background: #323232;
+    height: 22rem;
+    border-radius: 1rem;
+}
+
+.income{
+    width: 18rem;
+}
+
+.hours{
+    width: 38rem;
+    margin-left: 2rem;
+}

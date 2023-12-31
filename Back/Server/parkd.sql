@@ -1,0 +1,30 @@
+CREATE TABLE users(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    username VARCHAR(255) UNIQUE NOT NULL
+);
+
+CREATE TABLE login(
+    id SERIAL PRIMARY KEY,
+    hash VARCHAR(255) NOT NULL,
+    username VARCHAR(255) UNIQUE NOT NULL
+);
+
+CREATE TABLE exitable(
+    id SERIAL PRIMARY KEY,
+    vin VARCHAR(255) NOT NULL,
+    checkin TIME NOT NULL,
+    checkout TIME NOT NULL,
+    spot VARCHAR(10) NOT NULL,
+    price SMALLINT NOT NULL,
+    username VARCHAR(255) UNIQUE NOT NULL
+);
+
+CREATE TABLE vehicle_history(
+    id SERIAL PRIMARY KEY,
+    vin VARCHAR(255) NOT NULL,
+    checkout TIME NOT NULL,
+    checkin TIME NOT NULL,
+    spot VARCHAR(10) NOT NULL,
+    price SMALLINT NOT NULL
+);

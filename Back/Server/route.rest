@@ -1,0 +1,23 @@
+POST http://localhost:4000/signin
+Content-Type: application/json
+
+{
+    "username": "Kai",
+    "password": "baller"
+}
+
+###
+POST http://localhost:4000/register
+Content-Type: application/json
+
+{
+    "name": "James",
+    "username": "Jamie",
+    "password": "1234"
+}
+
+###
+POST http://localhost:4000/booking
+
+###
+GET http://localhost:4000/dashboard/

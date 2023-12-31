@@ -1,0 +1,60 @@
+.entry-form{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.form-case{
+    position: absolute;
+    left: 35%;
+}
+
+.welcome{
+    color: #fff;
+}
+
+h2, h3{
+    color: #fff;
+}
+
+.entry{
+    width: 55rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border: 3px solid #27cc51;
+    background: #323232;
+    margin-bottom: 2rem;
+}
+
+input:focus{
+    background: #fff;
+}
+
+input[type='text']{
+    font-size: 2rem;
+    text-align: center;
+}
+
+input[type='time']{
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+::placeholder{
+    font-size: 2rem;
+    padding-left: 20px;
+}
+
+.entry-btn{
+    width: 26rem;
+    background: #27cc51;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.timestamp, .datestamp{
+    color: #fff;
+    font-size: 1.5rem;
+}
